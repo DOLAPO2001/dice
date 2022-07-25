@@ -1,0 +1,36 @@
+
+.a{
+  font-family: cursive;
+  font-weight: bold;
+  color: blue;
+  font-size: 30px;
+}
+.head{
+  color: yellow;
+  font-size: 40px;
+  font-weight: bold;
+}
+body{
+  background-color: red;
+   position: flex;
+   animation: example 4s infinite;
+ animation-name:example;
+ animation-duration: 10s
+
+
+}
+@keyframes example {
+ 0%{background-color: green; left:0px; top:200px;}
+ 25%{background-color: teal; left:200px; top:0px;}
+  50%{background-color: orange; top:200px; right:0px;}
+   75%{background-color: whitesmoke; left:200px; top:0px;}
+    100%{background-color: purple; buttom:200px; top:0px;}
+}
+
+
+button{
+  color: grey;
+  background-color: purple;
+  box-shadow: 2px 2px 1px black;
+  font-size: 40px;
+}
